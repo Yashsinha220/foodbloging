@@ -6,6 +6,7 @@ import './App.css'
 import HeaderSection from './pages/HeaderSection'
 import TopPage from './pages/TopPage'
 import AboutUs from './pages/AboutUs'
+import Articles from './pages/Articles'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,8 @@ function App() {
     <div className="App ">
       <TopPage></TopPage>
       <AboutUs></AboutUs>
+      <Articles></Articles>
+    
      
     </div>
   )
