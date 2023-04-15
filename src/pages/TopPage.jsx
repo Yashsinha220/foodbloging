@@ -1,5 +1,6 @@
 import React from "react";
 import img from '../images/about/stick.png'
+import imgpizza from '../images/Rect400.png'
 
 function TopPage() {
   return (
@@ -39,9 +40,18 @@ function TopPage() {
         
 
         {/* for the image */}
-        <div className="  h-[426px] w-full bg-red-500  lg:h-[839px] lg:w-[752px] lg:flex-1 ">
-          {/* for the image */}
+        <div className="h-[426px] w-full bg-red-500  lg:h-[839px] lg:w-[752px] lg:flex-1 z-10">
+        
+        <div>
+          <img src={`${imgpizza}`} alt="" srcset=""  className="lg:w-[735px] lg:h-[804px] object-cover z-[-1]  relative top-[calc(50% - 804px/2 - 1356.5px)]" style={{
+            borderRadius : "0px 0px 0px 198.902px"
+          }} />
+          </div>
+          
         </div>
+       
+       
+        
       </header>
     </>
   );
